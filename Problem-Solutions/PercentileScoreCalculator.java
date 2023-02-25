@@ -10,6 +10,8 @@ public class PercentileScoreCalculator {
   
     public static float calculatePercentileScore(int totalStudents, int[] marks, int yourScore) throws Exception {
       //TODO: Implement this function and remove below line, which throws exception
+        
+      //first we count how many students are less than given marks after then we divide by total students and calculate percentile.
     float lessMarksCount = 0;
     for(int i : marks){
         if(i<yourScore){
